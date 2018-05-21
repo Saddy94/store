@@ -1,0 +1,150 @@
+.fa-phone {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px !important;
+    line-height: 10px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+
+.phonewrap span {
+    background-color:#F95785;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.phonewrap:hover > span i  {
+    animation: 1200ms ease 0s normal none 1 running shake;
+}
+@keyframes shake {
+0% {
+    transform: rotateZ(0deg);
+}
+10% {
+    transform: rotateZ(-30deg);
+}
+20% {
+    transform: rotateZ(15deg);
+}
+30% {
+    transform: rotateZ(-10deg);
+}
+40% {
+    transform: rotateZ(7.5deg);
+}
+50% {
+    transform: rotateZ(-6deg);
+}
+60% {
+    transform: rotateZ(5deg);
+}
+70% {
+    transform: rotateZ(-4.28571deg);
+}
+80% {
+    transform: rotateZ(3.75deg);
+}
+90% {
+    transform: rotateZ(-3.33333deg);
+}
+100% {
+    transform: rotateZ(0deg);
+}
+}
+
+h3{
+    font-family: KarollaC;
+
+    color:aliceblue;
+}
+
+h2{
+   font-size: 16px;
+   color: #5E5694;
+}
+body{
+
+   /*height: 2000px;*/
+}
+
+.container-fluid {
+   padding: 0;
+}
+
+.footer {
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom:0;
+  height:6em;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.social a{
+    text-align:center;
+    width:46px;
+    height:46px;
+    float:left;
+    background:#fff;
+    /*border:1px solid #ccc;*/
+    /*box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);*/
+    border-radius:46px;
+    margin:0 10px 10px 0;
+    padding:6px;
+    color:#000;
+}
+
+.img{
+    max-width: 100%;
+}
+
+/*.twitter{*/
+   /*height:46px;*/
+/*}*/
+/*.instagram{*/
+   /*height:46px;*/
+/*}*/
+/*.facebook{*/
+   /*height:46px;*/
+/*}*/
+/*.skype{*/
+   /*height:46px;*/
+/*}*/
+/*.vk{*/
+   /*height:46px;*/
+/*}*/
+/*.telegram{*/
+   /*height:46px;*/
+/*}*/
+/*.twitter{*/
+   /*height:46px;*/
+/*}*/
+/*.whatsapp{*/
+   /*height:46px;*/
+/*}*/
+
+
+.copyright{
+
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+
+}
+.twitter a:hover{background:#00acee;color:#FFF8DC;}
+.instagram a:hover{background:#3f729b;color:#FFF8DC;}
+.facebook a:hover{background:#3b5998;color:#FFF8DC;}
+.skype a:hover{background:#00aff0;color:#FFF8DC;}
+.vk a:hover{background:#5d84ae;color:##FFF8DC;}
+.telegram a:hover{background:#249bd7;color:#FFF8DC;}
+.whatsapp a:hover{background:#50b154;color:#fff;}
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% load bootstrap4 %}
+{% bootstrap_javascript %}
+{% bootstrap_css %}
+{#{% load widget_tweaks %}#}
+{% load staticfiles %}
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{%static "css/login/login.css" %}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col"></div>
+        <div class= "col">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div class="col"></div>
+    </div>
+
+</div>
+
+</body>
+</html>

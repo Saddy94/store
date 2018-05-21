@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+@media screen and (max-width:468px) {
+   body {font-size: 10px;}
+}
+
+body{
+
+
+}
+
+.container-fluid{
+
+    padding: 0;
+
+}
+
+.image{
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.price{
+
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 24px;
+
+
+}
+.cart {
+    display:flex;
+    justify-content: flex-end;
+
+    background-color: aliceblue;
+}
+
+.scow{
+
+}
+/*
+    DJANGO Admin styles
+*/
+
+
+.sidebar ul{
+  list-style: none; /*маркер*/
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.sidebar ul li{
+  padding: 5px 10px;
+}
+.sidebar ul li.selected{
+  background: #0095ff;
+  border-radius: 5px;
+}
+.sidebar ul li.selected a{
+  color: white;
+}
+
+.desc {
+    /*text-align: center;*/
+}

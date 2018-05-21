@@ -1,0 +1,37 @@
+{% extends "login/base.html" %}
+{% load widget_tweaks %}
+{% block title %}Log-in{% endblock %}
+
+{% block content %}
+
+
+    <form class="form-horizontal" action="." method="post">
+
+
+{#        {{ form.as_p }}#}
+        {% csrf_token %}
+
+        <div class="form">
+            <h1 class="signin"> Войти через логин</h1>
+            <p>Логин:</p>
+            <div class="form-control1">
+
+                {{ form.username|add_class:"form-control"}}
+            </div>
+            <p>Пароль:</p>
+            <div class="form-control2">
+                {{ form.password |add_class:"form-control" }}
+            </div>
+
+            <div class="form-control3">
+                <input class="btn btn-lg" type="submit" value="ВОЙТИ"/>
+            </div>
+            <p>Забыли пароль?</p>
+        </div>
+
+
+
+    </form>
+
+
+{% endblock %}
